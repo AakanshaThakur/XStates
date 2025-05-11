@@ -58,7 +58,7 @@ const StateSelector = () => {
   return (
     <div className={styles["city-selector"]}>
       <h1>Select Location</h1>
-      <div>
+      <div className={styles.dropdowns}>
         <select
           value={selectedCountry}
           onChange={(e) => setSelectedCountry(e.target.value)}
